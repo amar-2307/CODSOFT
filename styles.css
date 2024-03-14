@@ -5,10 +5,9 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    /* background: linear-gradient(to right, #D4145A, #FBB03B ); */
+    background: linear-gradient(to right, #D4145A, #FBB03B );
 }
-/* #D4145A → #FBB03B */
+
 .container
 {
     display: flex;
@@ -19,9 +18,6 @@ body
     border: 8px solid white;
     border-radius: 30px;
     background: linear-gradient(#FF512F, #DD2476);
-    /* #FF512F → #DD2476 */
-    /* background-color: #AAD9BB; */
-    /* background: linear-gradient(90deg, aqua, aquamarine); */
 }
 input
 {
@@ -48,8 +44,6 @@ button
 button:hover
 {
     background: linear-gradient(to top,#FF5F6D, #FFC371);
-    /* #FF5F6D → #FFC371 */
-    /* background-color: rgb(247, 198, 75); */
 }
 .inner
 {
