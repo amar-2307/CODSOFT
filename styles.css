@@ -5,7 +5,8 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #D4145A, #FBB03B );
+    background-color: aqua;
+    /* background: linear-gradient(to right, #D4145A, #FBB03B ); */
 }
 /* #D4145A → #FBB03B */
 .container
