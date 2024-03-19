@@ -5,7 +5,9 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #D4145A, #FBB03B );
+    /* background-color: rgba(55, 52, 52, 0.825); */
+    /* background: linear-gradient(to right, #D4145A, #FBB03B ); */
+    background: radial-gradient(white, #FBB03B, red,black );
 }
 
 .container
@@ -17,10 +19,12 @@ body
     width: 400px;
     border: 8px solid white;
     border-radius: 30px;
-    background: linear-gradient(#FF512F, #DD2476);
+    background-color: black;
+    /* background: linear-gradient(#FF512F, #DD2476); */
 }
 input
 {
+    text-align: end;
     font-size: 25px;
     font-weight: bolder;
     display: flex;
@@ -43,7 +47,8 @@ button
 }
 button:hover
 {
-    background: linear-gradient(to top,#FF5F6D, #FFC371);
+    background-color: rgba(191, 191, 191, 0.788);
+    /* background: linear-gradient(to top,#FF5F6D, #FFC371); */
 }
 .inner
 {
